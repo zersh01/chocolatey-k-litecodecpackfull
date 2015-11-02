@@ -30,7 +30,7 @@ Same as Standard, plus:
 	Updated MediaInfo Lite to version 0.7.78
 	Updated Codec Tweak Tool to version 6.0.2
 	</releaseNotes>
-    <iconUrl>http://www.codecguide.com/mpc_logo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/zersh01/chocolatey-k-litecodecpackfull/master/KLite.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
