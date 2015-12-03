@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>k-litecodecpackfull</id>
     <title>K-Lite Codec Pack Full</title>
-    <version>11.5.5</version>
+    <version>11.7.0</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
-    <summary>K-Lite Codec Pack Full 11.5.5</summary>
+    <summary>K-Lite Codec Pack Full 11.7.0</summary>
     <description>The K-Lite Codec Pack is a collection of DirectShow filters, VFW/ACM codecs, and tools.
 Codecs and DirectShow filters are needed for encoding and decoding audio and video formats.
 The K-Lite Codec Pack is designed as a user-friendly solution for playing all your audio and movie files.
@@ -23,13 +23,11 @@ Same as Standard, plus:
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/about_kl.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated LAV Filters to version 0.66-27-g9ab9e
-	Updated Icaros to version 3.0.0 rc2
-	Updated MPC-HC to version 1.7.9.181
-	Updated madVR to version 0.89.6
-	Updated MediaInfo Lite to version 0.7.78
-	Updated Codec Tweak Tool to version 6.0.2
-	</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 1.7.10.17
+Updated LAV Filters to version 0.67-3-g89632
+Updated madVR to version 0.89.17
+Updated Codec Tweak Tool to version 6.0.3
+</releaseNotes>
     <iconUrl>https://cdn.rawgit.com/zersh01/chocolatey-k-litecodecpackfull/master/KLite.png</iconUrl>
   </metadata>
   <files>

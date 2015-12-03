@@ -1,4 +1,4 @@
-$packageName = 'k-litecodecpackfull'
+﻿$packageName = 'k-litecodecpackfull'
 $fileType = 'exe'
 $silentArgs = '/SILENT /NORESTART'
 
@@ -13,3 +13,4 @@ if ($osBitness -eq 64)
 if ($uninstallString -ne "") {
     Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $uninstallString
  }
+
