@@ -4,10 +4,10 @@
   <metadata>
     <id>k-litecodecpackfull</id>
     <title>K-Lite Codec Pack Full</title>
-    <version>11.9.0</version>
+    <version>12.0.1</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
-    <summary>K-Lite Codec Pack Full 11.9.0</summary>
+    <summary>K-Lite Codec Pack Full 12.0.1</summary>
     <description>The K-Lite Codec Pack is a collection of DirectShow filters, VFW/ACM codecs, and tools.
 Codecs and DirectShow filters are needed for encoding and decoding audio and video formats.
 The K-Lite Codec Pack is designed as a user-friendly solution for playing all your audio and movie files.
@@ -23,14 +23,19 @@ Same as Standard, plus:
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-Updated MPC-HC to version 1.7.10.86
-Updated LAV Filters to version 0.67-69-g71fa8
-Updated Codec Tweak Tool to version 6.0.4
-Updated MediaInfo Lite to version 0.7.82</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 1.7.10.101
+Updated LAV Filters to version 0.67-142-gb9999
+Removed Haali Media Splitter
+Updated madVR to version 0.90.10
+Updated Codec Tweak Tool to version 6.0.5
+Updated MediaInfo Lite to version 0.7.83
+Added VP9 hardware acceleration option (DXVA2-CB only). Currently only the NVIDIA GTX 950/960/750v2 are capable of doing full accelerated decoding VP9 video.
+madVR is now capable of outputting 3D video. It uses 3D frame packed output on compatible systems (Windows 8.1 or newer / HDMI 1.4+) and Side-By-Side (SBS) output on older systems.
+LAV Video decoder is capable of decoding H.264 MVC 3D video after installing Intel media SDK plugin (separate download).
+LAV Splitter supports reading H.264 MVC video from Matroska (.MKV) and (decrypted) Bluray discs (.M2TS/.SSIF)</releaseNotes>
     <iconUrl>https://cdn.rawgit.com/zersh01/chocolatey-k-litecodecpackfull/master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
-    <projectSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackfull</projectSourceUrl>
+    <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackfull</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
