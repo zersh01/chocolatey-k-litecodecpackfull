@@ -4,10 +4,10 @@
   <metadata>
     <id>k-litecodecpackfull</id>
     <title>K-Lite Codec Pack Full</title>
-    <version>12.9.5</version>
+    <version>13.4.5</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
-    <summary>K-Lite Codec Pack Full 12.9.5</summary>
+    <summary>K-Lite Codec Pack Full </summary>
     <description>The K-Lite Codec Pack is a collection of DirectShow filters, VFW/ACM codecs, and tools.
 Codecs and DirectShow filters are needed for encoding and decoding audio and video formats.
 The K-Lite Codec Pack is designed as a user-friendly solution for playing all your audio and movie files.
@@ -23,9 +23,7 @@ Same as Standard, plus:
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated LAV Filters to version 0.69-3-gcfd95
-Updated Codec Tweak Tool to version 6.1.6
-Updated MediaInfo Lite to version 0.7.92.1</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 1.7.13.89   Updated LAV Filters to version 0.70.2-35-ge3c6f   Updated MadVR to version 0.92.1   Updated MediaInfo Lite to version 0.7.98   Updated Icaros to 3.0.3 b1    </releaseNotes>
     <iconUrl>https://cdn.rawgit.com/zersh01/chocolatey-k-litecodecpackmega/master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackfull</packageSourceUrl>
