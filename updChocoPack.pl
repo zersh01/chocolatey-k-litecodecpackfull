@@ -45,8 +45,6 @@ print "Avalible new version\n Vers: $version\n File: $FileName\n MD5: $md5\n Cha
 
 $ChangeLog =~ s|<.+?>| |g;
 
-
-
 #Продолжаем если версии не совпадают - иначе Выход.
 my $lastvers = read_file("$last");
 unless ($lastvers ne $version){

@@ -4,7 +4,7 @@
   <metadata>
     <id>k-litecodecpackfull</id>
     <title>K-Lite Codec Pack Full</title>
-    <version>14.6.0</version>
+    <version>14.7.5</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
     <summary>K-Lite Codec Pack Full </summary>
@@ -23,10 +23,9 @@ Same as Standard, plus:
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated MPC-HC to version 1.8.3.8
-Updated MediaInfo Lite to version 18.12
-MPC-HC is now able to download online streams using: Menu &gt; File &gt; Save a Copy</releaseNotes>
-    <iconUrl>https://cdn.rawgit.com/zersh01/chocolatey-k-litecodecpackmega/master/KLite.png</iconUrl>
+    <releaseNotes>Updated MPC-HC to version 1.8.4.9
+Updated LAV Filters to version 0.73.1-14-g08b46</releaseNotes>
+    <iconUrl>https://cdn.jsdelivr.net/gh/zersh01/chocolatey-k-litecodecpackbasic@master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackfull</packageSourceUrl>
     <bugTrackerUrl>http://codecs.forumotion.net/f3-support</bugTrackerUrl>
